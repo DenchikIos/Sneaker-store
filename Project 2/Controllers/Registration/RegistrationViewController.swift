@@ -7,13 +7,12 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class RegistrationViewController: UIViewController {
+    var registration = RegistrationView()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        view = registration
     }
-
-
 }
 
